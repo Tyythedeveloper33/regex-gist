@@ -1,6 +1,6 @@
 # Title (replace with your title)
 
-Introductory paragraph (replace this with your text)
+A "regex", or better known as "regular expression" is a very good language to match patterns , that are used manipulate text, or even just for searching text. It is very powerful because it allows developers to define patterns of  numbers or characters and apply those patterns to strings of text. using regex it can make things easy for developers when it comes to validating data,extracting information, searching for specific words, etc. 
 
 ## Summary
 
