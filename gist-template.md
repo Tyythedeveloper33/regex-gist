@@ -1,10 +1,10 @@
-# Title (replace with your title)
+# the power of REGEX(regular expression)
 
-A "regex", or better known as "regular expression" is a very good language to match patterns , that are used manipulate text, or even just for searching text. It is very powerful because it allows developers to define patterns of  numbers or characters and apply those patterns to strings of text. using regex it can make things easy for developers when it comes to validating data,extracting information, searching for specific words, etc. 
+A "regex", or better known as "regular expression" is a very good language to match patterns , that are used manipulate text, or even just for searching text. It is very powerful because it allows developers to define patterns of numbers or characters and apply those patterns to strings of text. using regex it can make things easy for developers when it comes to validating data,extracting information, searching for specific words, etc. 
 
 ## Summary
 
-so for my choice of Regex i went with the regular expression for matching a email, in this gist i will start off from the start of the expression when it comes to explaining each element thats included individually, so expect them to be in order in which the order the elements are used. also i will explain what the element is, then how the element is integrated into my regular expression and its purpose in my expression. here is my regex:
+so for my choice of Regex I went with the regular expression for matching a email, in this gist I will start off from the start of the expression when it comes to explaining each element thats included individually, so expect them to be in order in which the order the elements are used. also i will explain what the element is, then how the element is integrated into my regular expression and its purpose in my expression. here is my regex:
               `/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/`
 
 ## Table of Contents
@@ -18,7 +18,7 @@ so for my choice of Regex i went with the regular expression for matching a emai
 ## Regex Components
 
 ### Anchors
-  an "anchor", occurring in a  regular expression, is a character or sign that represents a position within a text , or a string of text where a match should occur. it is important to note that Anchors do not match any characters themselves , they are stricly for declaring a position for where the match of the regular expession can occur.
+  an "anchor", occurring in a  regular expression, is a character or sign that represents a position within a text. It is important to note that Anchors do not match any characters themselves , they are stricly for declaring a position for where the match of the regular expession can occur.
   For instance in my code: I will use ||anchor|| to show the position of the element
                          
                             `/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/`
