@@ -47,4 +47,4 @@ last I will be covering character escapes, I probably should of covered it first
     in this example i only have to explain two types of character iscapes but it is important to notice that even though "@" isnt a metacharacter it is a literal character, meaning it shows up and matches itself exactly, back to the character escapes \. matches a literal "." if it was just . without the \ would actually be a metacharacter , which is a character that holds a specail value in this case UI think "." would be a wildcard for matching any character.  the \d it equal for matching any digit 0-9  now "d" without the backslash isnt treated as a metacharacter, but its treated as a literal character , meaning it would match the input if it had a "d" character in it.
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+My name is Tyler Webster i am a 21 year full stack webdeveloper, developing a new skill of useing regular expressions , to build familiarity with them for encounters in work environment. my github - https://github.com/Tyythedeveloper33?tab=repositories
